@@ -1,7 +1,8 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+/**
+ * La clase serializable Cuenta para almacenar registros como objetos.
+ * Cuenta.java.
+ * Creado el: 15/05/2019  4:22 pm.
+ * Versión: 1.0.
  */
 package creararchivosecuencial;
 
