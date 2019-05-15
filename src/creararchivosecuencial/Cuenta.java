@@ -25,7 +25,13 @@ public class Cuenta implements Serializable {
     public Cuenta() {
         this(0, "", "", 0.0); // llama a otro constructor
     }
-    /** Inicializa un objeto Cuenta con los valores proporcionados */
+    /** Inicializa un objeto Cuenta con los valores proporcionados.
+     * 
+     * @param cuenta            Tipo entero.
+     * @param primerNombre      Tipo String.
+     * @param apellidoPaterno   Tipo String.
+     * @param saldo             Tipo double.
+     */
     public Cuenta(int cuenta, String primerNombre, String apellidoPaterno, 
             double saldo){
         this.cuenta = cuenta;
